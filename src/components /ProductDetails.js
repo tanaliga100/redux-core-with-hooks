@@ -32,13 +32,12 @@ const ProductDetails = () => {
 
   return (
     <>
-      <h1 style={{ display: "flex" }}>ProductDetails</h1>
-      <section className="details">
-        <h1>{title}</h1>
-        <p>{description}</p>
-        <img src={image} alt="prodImage" className="prodImage" />
+      <section className="tc bg-light-gree dib br3 pa3 ma2 grow bw2 shadow-5">
+        <div className="f3 f2-m f1-l fw2 black-90 mv3">{title}</div>
+        <p className="f5 f4-m f3-l fw2 black-50 mt0 lh-copy ">{description}</p>
+        <img src={image} alt="prodImage" className="br-100 h3 w3 dib" />
         <h4>{price}</h4>
-        <h1>{category}</h1>
+        <h1 className="f6 lh-copy measure-narrow">{category}</h1>
       </section>
     </>
   );
