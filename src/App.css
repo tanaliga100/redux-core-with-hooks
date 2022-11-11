@@ -19,9 +19,9 @@
   background-color: rgba(255, 68, 0, 0.925);
   min-height: content;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
 }

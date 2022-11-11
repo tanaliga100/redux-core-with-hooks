@@ -6,27 +6,29 @@ import ProductDetails from "./components /ProductDetails";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Panel from "./components /Panel";
 import Main from "./components /Main";
+import Nav from "./components /Nav";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header tracked">
         <h3
           style={{
             padding: "0 1rem",
           }}
+          className="fw9"
         >
           Lazamo
         </h3>
+        <Router>
+          <Nav />
+        </Router>
       </header>
       <div className="pa3 pa4-ns dtc-ns v-mid ">
         <div>
-          <h2 className="fw4 blue mt0 mb3" style={{ color: "crimson" }}>
+          {/* <h2 className="fw4 blue mt0 mb3" style={{ color: "crimson" }}>
             E - commerce Site for your business{" "}
-          </h2>
-          <p className="black-50 measure lh-copy mv0 ">
-            These are the lists of all the products
-          </p>
+          </h2> */}
         </div>
       </div>
       <Main>

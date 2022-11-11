@@ -26,6 +26,7 @@ const Search = (props) => {
         style={{
           lineHeight: "30px",
           padding: "1px 3rem",
+          border: "none",
         }}
         value={search}
         onChange={handleSearch}
