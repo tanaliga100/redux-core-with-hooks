@@ -26,14 +26,14 @@ const Panel = () => {
         </select>
       </section>
       <section
-        className="tracked"
+        className="tracked bb3"
         style={{
           display: "grid",
           gap: "1rem",
           color: "rgba(255, 68, 0, 0.925)",
         }}
       >
-        <h2 className="tracked">Featured</h2>
+        <h2 className="tracked ">Featured</h2>
         <label htmlFor="" style={{ color: "crimson" }}>
           Pants
           <input style={{ margin: "0 1rem" }} type="checkbox" name="" id="" />
@@ -52,6 +52,44 @@ const Panel = () => {
         </label>{" "}
         <label htmlFor="" style={{ color: "crimson" }}>
           Shoes
+          <input style={{ margin: "0 1rem" }} type="checkbox" name="" id="" />
+        </label>
+      </section>
+      <section
+        className="tracked"
+        style={{
+          display: "grid",
+          gap: "1rem",
+          color: "rgba(255, 68, 0, 0.925)",
+        }}
+      >
+        <h2 className="tracked">Brands</h2>
+        <label htmlFor="" style={{ color: "crimson" }}>
+          Nike
+          <input style={{ margin: "0 1rem" }} type="checkbox" name="" id="" />
+        </label>
+        <label htmlFor="" style={{ color: "crimson" }}>
+          Adidas
+          <input style={{ margin: "0 1rem" }} type="checkbox" name="" id="" />
+        </label>{" "}
+        <label htmlFor="" style={{ color: "crimson" }}>
+          H&M
+          <input style={{ margin: "0 1rem" }} type="checkbox" name="" id="" />
+        </label>{" "}
+        <label htmlFor="" style={{ color: "crimson" }}>
+          Zara
+          <input style={{ margin: "0 1rem" }} type="checkbox" name="" id="" />
+        </label>{" "}
+        <label htmlFor="" style={{ color: "crimson" }}>
+          Levis
+          <input style={{ margin: "0 1rem" }} type="checkbox" name="" id="" />
+        </label>
+        <label htmlFor="" style={{ color: "crimson" }}>
+          Prada
+          <input style={{ margin: "0 1rem" }} type="checkbox" name="" id="" />
+        </label>
+        <label htmlFor="" style={{ color: "crimson" }}>
+          Burberry
           <input style={{ margin: "0 1rem" }} type="checkbox" name="" id="" />
         </label>
       </section>

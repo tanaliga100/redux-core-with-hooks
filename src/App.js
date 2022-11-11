@@ -24,13 +24,7 @@ function App() {
           <Nav />
         </Router>
       </header>
-      <div className="pa3 pa4-ns dtc-ns v-mid ">
-        <div>
-          {/* <h2 className="fw4 blue mt0 mb3" style={{ color: "crimson" }}>
-            E - commerce Site for your business{" "}
-          </h2> */}
-        </div>
-      </div>
+      <div className="pa3 pa4-ns dtc-ns v-mid "></div>
       <Main>
         <Panel />
         <Router>
